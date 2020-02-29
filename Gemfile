@@ -51,7 +51,7 @@ group :test do
 end
 
 group :production do
-  # Adds support for Capybara system testing and selenium driver
+  # PostgreSQL for production environment
   gem 'pg', '~> 1.2.2'
 end
 
