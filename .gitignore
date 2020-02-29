@@ -1,4 +1,5 @@
 # ignore local context
-bundle/config
-tmp/*
-log/*
+/.bundle/config
+/tmp/*
+/log/*
+/vendor/bundle
