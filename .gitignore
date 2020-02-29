@@ -1,5 +1,9 @@
-# ignore local context
+# Ignore local context
 /.bundle
+
+# Ignore temporary and logs files 
 /tmp/*
 /log/*
+
+# Ignore local gems (will be downloaded for test/deploy anyway)
 vendor/bundle
