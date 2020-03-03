@@ -35,6 +35,10 @@ rails g scaffold burger name price:float image nutriscore
 rails db:migrate
 ```
 
+Procfile : 
+Le procfile permet de lancer des commandes au démarrage de l'instance heroku
+Source : https://devcenter.heroku.com/articles/procfile
+
 Things you may want to cover:
 
 * Ruby version
