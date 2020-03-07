@@ -1,2 +1,3 @@
 class Burger < ApplicationRecord
+    
 end
