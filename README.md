@@ -39,6 +39,10 @@ Procfile :
 Le procfile permet de lancer des commandes au démarrage de l'instance heroku
 Source : https://devcenter.heroku.com/articles/procfile
 
+Exemple d'utilisation de l'API Slack : 
+```
+curl -X POST --data-urlencode 'payload={"channel": "#random", "username": "webhookbot", "text": "This is posted to #groo"}' https://hooks.slack.com/services/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
+```
 Things you may want to cover:
 
 * Ruby version
